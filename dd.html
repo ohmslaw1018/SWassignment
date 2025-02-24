@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나의 독서록</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        h1 {
+            text-align: center;
+            font-size: 2em;
+        }
+        .book-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .book {
+            padding: 20px;
+            border: 2px solid black;
+            width: 150px;
+            text-align: center;
+            font-size: 1.2em;
+            cursor: pointer;
+            transition: color 0.3s, background-color 0.3s;
+        }
+        .book:nth-child(1):hover {
+            color: white;
+            background-color: darkblue;
+        }
+        .book:nth-child(2):hover {
+            color: white;
+            background-color: darkgreen;
+        }
+        .book:nth-child(3):hover {
+            color: white;
+            background-color: darkred;
+        }
+    </style>
+</head>
+<body>
+    <h1>나의 독서록</h1>
+    <div class="book-container">
+        <div class="book">1. 웃는 남자</div>
+        <div class="book">2. 선량한 차별주의자</div>
+        <div class="book">3. 메이즈 러너</div>
+    </div>
+</body>
+</html>
